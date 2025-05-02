@@ -34,8 +34,8 @@ This is the comparison logic Gsort uses.
 Implements the Gsort algorithm:
 
 - Iterates over the list.
-- Keeps numbers only as long as the next is **not greater**.
-- As soon as one number increases, the function stops and returns what it has.
+- Keeps numbers only as long as the next is **greater**.
+- As soon as one number decrease, the function stops and returns what it has.
 
 ---
 
@@ -45,10 +45,10 @@ Implements the Gsort algorithm:
 from gsort import Gsort
 
 Gsort([9, 8, 7, 10, 5, 1])
-# Output: [9, 8, 7]
+# Output: [9]
 
-Gsort([5, 4, 3, 2, 1])
-# Output: [5, 4, 3, 2]
+Gsort([3, 4, 5, 2, 1])
+# Output: [3, 4, 5]
 ```
 
 ---
