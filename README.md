@@ -24,7 +24,7 @@ This algorithm walks through a list and stops the moment a number fails to be sm
 
 ##  Functions
 
-### `is_bigger_than(a: float, b: float) -> bool`
+### `is_smaller_than(a: float, b: float) -> bool`
 
 Returns `True` if `b` is greater than `a`.  
 This is the comparison logic Gsort uses.
