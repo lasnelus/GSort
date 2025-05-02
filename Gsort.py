@@ -1,8 +1,8 @@
-def is_bigger_than(a : float, b: float)-> bool:
+def is_smaller_than(a : float, b: float)-> bool:
     """
     Compare two numbers and return True if the second is greater than the first.
     """
-    return a > b
+    return b > a
 
 def Gsort(list: list)-> list:
     """
@@ -18,9 +18,13 @@ def Gsort(list: list)-> list:
     DO NOT TAKE THIS ALGORITHM SERIOUSLY.
     """
     res =[]
-    for i in range(len(list)-1):
-        if is_bigger_than(list[i], list[i+1]):
+    for i in range(len(list)):
+        if i == len(list) - 1:
+            res.append(list[i])
+            break
+        if is_smaller_than(list[i], list[i+1]):
             res.append(list[i])
         else:
+            res.append(list[i])
             break  
     return res
