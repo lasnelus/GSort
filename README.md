@@ -7,7 +7,7 @@
 ##  What Is This?
 
 Gsort is based on a sarcastic interpretation of sorting:  
-> *"I stop reading after the first error."* — A math teacher at USMB, France
+> *"I stop reading after the first error."* — A math teacher.
 
 This algorithm walks through a list and stops the moment a number fails to be smaller than the previous. It then returns only the part of the list that was "in line".
 
