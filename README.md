@@ -17,8 +17,8 @@ This algorithm walks through a list and stops the moment a number fails to be sm
 
 - Start from the first element in the list.
 - Compare each number to the next one using a comparison function.
-- If the next number is smaller, continue.
-- If it's equal to or larger, **stop immediately** and return what you've seen so far.
+- If the next number is bigger, continue.
+- If it's equal to or smaller, **stop immediately** and return what you've seen so far.
 
 ---
 
