@@ -75,3 +75,4 @@ WTFPL – Do What the F*ck You Want to Public License.
 
 Crafted with Python and sarcasm by someone who enjoys algorithm humor.
 [@lasnelus](https://github.com/lasnelus)
+[![wakatime](https://wakatime.com/badge/user/5faeb795-a990-47af-8333-7f49032c5997/project/6a521f44-4112-4a5d-8a47-de7c7bb36800.svg)](https://wakatime.com/badge/user/5faeb795-a990-47af-8333-7f49032c5997/project/6a521f44-4112-4a5d-8a47-de7c7bb36800)
