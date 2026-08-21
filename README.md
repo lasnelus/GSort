@@ -1,6 +1,6 @@
 #  Gsort Algorithm
 
-**Gsort** is a humorous and intentionally broken sorting algorithm inspired by the "Stalin Sort" — a joke algorithm where any data that doesn't fit the desired order is simply discarded.
+**Gsort** is a humorous and intentionally broken sorting algorithm inspired by the "Stalin Sort" - a joke algorithm where any data that doesn't fit the desired order is simply discarded.
 
 ---
 
